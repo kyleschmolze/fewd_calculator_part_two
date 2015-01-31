@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js'></script>
+    <script type="text/javascript" src='calculator.js'></script>
+  </head>
+  <body>
+    <center>
+      <h2> A Calculator </h2>
+      <p>
+        <small> That only supports single digits. </small>
+      </p>
+      
+      <br>
+      <table>
+        <tr>
+          <td colspan=3> <input type='text' class='cmd-input'> </td>
+          <td>
+            <a href='javascript:void(0)' onClick='gatherInputAndCalculate()' class='btn equals'> = </a> 
+          </td>
+        </tr>
+        <tr>
+          <td> <a href='javascript:void(0)' class='btn'> 7 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> 8 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> 9 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> + </a> </td>
+        </tr>
+        <tr>
+          <td> <a href='javascript:void(0)' class='btn'> 4 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> 5 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> 6 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> - </a> </td>
+        </tr>
+        <tr>
+          <td> <a href='javascript:void(0)' class='btn'> 1 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> 2 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> 3 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> * </a> </td>
+        </tr>
+        <tr>
+          <td colspan=3> <a href='javascript:void(0)' class='btn'> 0 </a> </td>
+          <td> <a href='javascript:void(0)' class='btn'> / </a> </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
